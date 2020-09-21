@@ -1,5 +1,8 @@
 // only imports here
 
-// start here with normalizer and global styles
+@import '../scss/global/normalize';
+@import '../scss/global/base';
 
+
+@import '../scss/sections/header';
 // put here other imports

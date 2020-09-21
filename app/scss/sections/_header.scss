@@ -1,0 +1,43 @@
+.header {
+  background-color: #333333;
+  padding: 12px 0;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+
+  &__list {
+    display: flex;
+  }
+  &__item {
+    margin-right: 50px;
+  }
+  &__link {
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    font-size: 16px;
+    color: #FAFAFA;
+  }
+
+  &__button {
+    padding: 0 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: #F2F2F2;
+    background: #F50A4D;
+    cursor: pointer;
+  }
+}
