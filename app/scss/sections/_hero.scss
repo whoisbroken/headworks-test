@@ -1,0 +1,50 @@
+.hero {
+  min-height: 377px;
+  background-image: url('../../img/hw-header-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+
+  &__inner {
+    padding-top: 131px;
+    padding-left: 92px;
+    max-width: 526px;
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -134px;
+      right: -376px;
+      width: 528px;
+      height: 112px;
+      background-image: url("../../img/hw-header-car.png");
+    }
+  }
+  
+
+  &__team {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    margin-bottom: 6px;
+  }
+
+  &__title {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 88px;
+    line-height: 66px;
+    color: #F50A4D;
+    margin-bottom: 8px;
+  }
+
+  &__slogan {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #333333;
+    text-align: right;
+  } 
+}
