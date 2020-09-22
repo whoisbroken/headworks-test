@@ -1,12 +1,12 @@
 .hero {
+  width: 100%;
   min-height: 377px;
   background-image: url('../../img/hw-header-background.jpg');
-  background-repeat: no-repeat;
   background-position: center bottom;
 
   &__inner {
     padding-top: 131px;
-    padding-left: 92px;
+    margin-left: 92px;
     max-width: 526px;
     position: relative;
     &:after {

@@ -1,0 +1,53 @@
+.about {
+  padding: 193px 0 150px;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  &__img {
+    width: 564px;
+    height: 311px;
+    margin-right: 116px;
+  }
+
+  &__list {
+    position: absolute;
+    bottom: 23px;
+    left: 36px;
+  }
+
+  &__item {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #F2F2F2;
+  }
+
+  &__title {
+    position: absolute;
+    top: -35px;
+    left: 497px;
+  }
+
+  &__description {
+    max-width: 344px;
+  }
+
+  &__text {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+
+    &:first-child {
+      margin-bottom: 36px;
+    }
+  }
+
+}

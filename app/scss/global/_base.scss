@@ -1,3 +1,7 @@
+*,*::after,*::before {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Titillium Web', sans-serif;
   font-style: normal;
@@ -9,4 +13,5 @@ body {
 .container {
   max-width: 1080px;
   margin: 0 auto;
+  padding: 0 15px;
 }

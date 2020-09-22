@@ -24,6 +24,10 @@
     letter-spacing: 0.01em;
     font-size: 16px;
     color: #FAFAFA;
+    transition: ease .5s;
+    &:hover {
+      color: #F50A4D;
+    }
   }
 
   &__button {
