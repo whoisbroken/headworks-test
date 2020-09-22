@@ -27,5 +27,20 @@ body {
 
 .revert {
   text-align: revert;
+}
 
+.input {
+  border: 1px solid #4F4F4F;
+  min-width: 252px;
+  padding: 0 12px;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  text-transform: capitalize;
+  background-color: transparent;
+  color: #F2F2F2;
+  outline: none;
+  &::placeholder {
+    color: #F2F2F2;
+  }
 }

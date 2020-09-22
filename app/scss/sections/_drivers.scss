@@ -1,6 +1,15 @@
 .drivers {
   &__title {
     margin-bottom: 120px;
+    &::after {
+      content: "";
+      width: 932px;
+      height: 3px;
+      position: absolute;
+      bottom: 14px;
+      right: -65px;
+      background-color: #F50A4D;
+    }
   }
 &__inner {
   max-width: 896px;

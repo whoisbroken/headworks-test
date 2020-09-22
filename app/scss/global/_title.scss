@@ -5,13 +5,4 @@
   line-height: 64px;
   color: #F50A4D;
   position: relative;
-  &::after {
-    content: "";
-    width: 932px;
-    height: 3px;
-    position: absolute;
-    bottom: 14px;
-    right: -65px;
-    background-color: #F50A4D;
-  }
 }
