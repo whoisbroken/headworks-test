@@ -1,7 +1,7 @@
 .hero {
   width: 100%;
   min-height: 377px;
-  background-image: url('../../img/hw-header-background.jpg');
+  background-image: url("../../img/hw-header-background.jpg");
   background-position: center bottom;
 
   &__inner {
@@ -12,11 +12,13 @@
     &:after {
       content: '';
       position: absolute;
+      display: inline-block;
       bottom: -134px;
       right: -376px;
       width: 528px;
       height: 112px;
       background-image: url("../../img/hw-header-car.png");
+      object-fit: contain;
     }
   }
   

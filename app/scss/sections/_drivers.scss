@@ -1,20 +1,24 @@
 .drivers {
   &__title {
     margin-bottom: 120px;
+    margin-left: 36px;
+
     &::after {
       content: "";
-      width: 932px;
+      width: 86%;
       height: 3px;
       position: absolute;
       bottom: 14px;
-      right: -65px;
+      right: 0;
       background-color: #F50A4D;
     }
   }
-&__inner {
-  max-width: 896px;
-  margin: 0 auto;
-}
+
+  &__inner {
+    max-width: 896px;
+    margin: 0 auto;
+  }
+
   &__card {
     display: flex;
     justify-content: space-between;
@@ -47,9 +51,11 @@
     font-size: 32px;
     color: #333333;
   }
+
   &__bottom {
     display: flex;
   }
+
   &__left-side {
     margin-right: 66px;
   }
@@ -63,3 +69,6 @@
     color: #4F4F4F;
   }
 }
+
+
+

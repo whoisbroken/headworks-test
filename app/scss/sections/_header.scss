@@ -7,6 +7,27 @@
     justify-content: space-between;
     align-items: center;
   }
+  &__start {
+    display: flex;
+    align-items: center;
+    &-btn {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      padding: 0;
+      width: 18px;
+      height: 12px; 
+      display: none;
+      margin-right: 16px;
+    }
+    &-line {
+      background-color: #F2F2F2;
+      display: block;
+      width: 18px;
+      height: 2px;
+      margin-bottom: 3px;
+    }
+  }
 }
 
 .menu {
@@ -45,3 +66,4 @@
     cursor: pointer;
   }
 }
+

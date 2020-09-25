@@ -1,13 +1,17 @@
 .car {
+  overflow: hidden;
   &__title {
-    &::after {
+    margin-left: 36px;
+    &::after { 
       content: "";
-      width: 1024px;
+      display: block;
+      width: 98%;
       height: 3px;
       position: absolute;
       bottom: 14px;
       right: -65px;
       background-color: #F50A4D;
+      z-index: 5;
     }
   }
 
@@ -63,3 +67,4 @@
   }
 
 }
+

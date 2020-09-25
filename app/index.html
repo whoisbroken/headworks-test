@@ -16,7 +16,14 @@
 <header class="header">
   <div class="container">
     <div class="header__inner">
-      <img class="header__logo" src="img/hw-logo-small.svg" alt="logo">
+      <div class="header__start">
+        <button class="header__start-btn">
+          <span class="header__start-line"></span>
+          <span class="header__start-line"></span>
+          <span class="header__start-line"></span>
+        </button>
+        <img class="header__start-logo" src="img/hw-logo-small.svg" alt="logo">
+      </div>
       <nav class="menu">
         <ul class="menu__list">
           <li class="menu__item">
@@ -44,9 +51,12 @@
 <section class="hero">
   <div class="container">
     <div class="hero__inner">
-      <h3 class="hero__team">Racing Team</h3>
-      <h1 class="hero__title">HeadWorks F1</h1>
-      <h3 class="hero__slogan">Code clean, care fast</h3>
+      <div class="hero__inner-box">
+
+        <h3 class="hero__team">Racing Team</h3>
+        <h1 class="hero__title">HeadWorks F1</h1>
+        <h3 class="hero__slogan">Code clean, care fast</h3>
+      </div>
     </div>
   </div>
 </section>
@@ -77,8 +87,8 @@
 </section>
 
 <section class="drivers">
+  <h2 class="drivers__title title">Drivers</h2>
   <div class="container">
-    <h2 class="drivers__title title">Drivers</h2>
     <div class="drivers__inner">
       <div class="drivers__card">
         <img class="drivers__img" src="img/hw-driver-stig-2.jpg" alt="">
@@ -127,8 +137,8 @@
 </section>
 
 <section class="car">
+  <h2 class="car__title title">Car</h2>
   <div class="container">
-    <h2 class="car__title title">Car</h2>
     <div class="car__inner">
       <div class="car__box">
         <img class="car__img" src="img/hw-car-car_image.jpg" alt="">
@@ -187,9 +197,9 @@
           </a>
         </li>
       </ul>
-      <form class="footer__form" action="">
+      <form class="footer__form">
         <input type="email" class="footer__email input" placeholder="Email">
-        <textarea class="footer__message input" placeholder="Message" name="" required></textarea>
+        <textarea class="footer__message input" placeholder="Message" required></textarea>
         <button type="submit" class="footer__btn">Contact</button>
       </form>
     </div>

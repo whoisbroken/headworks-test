@@ -1,0 +1,476 @@
+@media (max-width: 1190px) {
+  .drivers__title:after {
+    width: 85%;
+    bottom: 14px;
+    right: 0;
+  }
+
+  .car__title:after {
+    width: 960px;
+    bottom: 14px;
+    right: 0;
+  }
+}
+
+@media (max-width: 1080px) {
+  .hero__inner::after {
+    bottom: -134px;
+    right: -114px;
+  }
+
+  .about {
+    padding: 130px 0 80px;
+  }
+
+  .about__img {
+    margin-right: 65px;
+    width: 397px;
+    height: 254px;
+  }
+
+  .about__title {
+    top: -37px;
+    left: 330px;
+  }
+
+  .about__description {
+    min-width: 284px;
+  }
+
+  .about__text {
+    font-size: 15px;
+  }
+
+  .about__text:first-child {
+    margin-bottom: 13px;
+  }
+
+  .drivers__title {
+    margin-bottom: 80px;
+  }
+
+  .drivers__title:after {
+    width: 80%;
+    bottom: 14px;
+    right: 0;
+  }
+
+  .drivers__inner {
+    max-width: 740px;
+    margin: 0 auto;
+  }
+
+  .drivers__card {
+    max-width: 668px;
+    margin-bottom: 69px
+  }
+
+  .drivers__img {
+    width: 303px;
+    height: 369px;
+  }
+
+  .drivers__left-side {
+    margin-right: 36px;
+  }
+
+  .car__title:after {
+    width: 89%;
+    bottom: 14px;
+    right: 0;
+  }
+
+  .car__img {
+    width: 500px;
+  }
+
+  .car__box {
+    display: flex;
+    position: relative;
+    margin: 35px 0 55px 82px;
+  }
+
+  .car__bottom {
+    margin-left: 105px;
+    margin-bottom: 74px;
+  }
+
+  .car__left-side {
+    margin-right: 80px;
+  }
+
+  .footer__text {
+    max-width: 282px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__inner {
+    padding-top: 23%;
+  }
+
+  .hero__inner::after {
+    bottom: -134px;
+    left: 0;
+  }
+
+  .header__start-btn {
+    display: block;
+  }
+
+  .menu__list {
+    display: none;
+  }
+
+  .hero__inner {
+    margin: 0 auto;
+  }
+
+  .about__title {
+    top: -7px;
+    left: 0;
+  }
+
+  .about__img {
+    width: 330px;
+    height: 190px;
+    margin-right: 10px;
+  }
+
+  .about__description {
+    max-width: 274px;
+  }
+
+  .about__item {
+    font-size: 16px;
+  }
+
+  .about__list {
+    bottom: 41px;
+    left: 36px;
+  }
+
+  .drivers__title {
+    margin-left: 15px;
+  }
+
+  .drivers__title:after {
+    width: 75%;
+  }
+
+  .car__title {
+    margin-left: 15px;
+  }
+
+  .car__title:after {
+    width: 86%;
+  }
+}
+
+@media (max-width: 724px) {
+  .drivers__left-side {
+    margin-right: 12px;
+  }
+
+  .drivers__info {
+    font-size: 15px;
+  }
+
+  .car__box {
+    flex-direction: column-reverse;
+    margin: 5% 0 4% 5%;
+  }
+
+  .car__feature {
+    order: 5;
+    margin-top: 0;
+  }
+
+  .car__img {
+    order: 3;
+    margin-right: 0;
+    width: 412px;
+  }
+
+  .car__description {
+    position: relative;
+    order: 1;
+  }
+
+  .car__left-side {
+    margin-right: 5%;
+  }
+
+  .car__bottom {
+    margin-left: 5%;
+    margin-bottom: 20%;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .about__inner {
+    flex-wrap: wrap;
+  }
+
+  .about__img {
+    margin-bottom: 20px;
+  }
+
+  .about__list {
+    top: 100px;
+    bottom: 0;
+
+  }
+
+  .about__title {
+    top: -39px
+  }
+
+  .drivers__title {
+    margin-bottom: 13%;
+  }
+
+  .drivers__title:after {
+    width: 70%;
+  }
+
+  .about__description {
+    max-width: 450px;
+  }
+
+  .drivers__card {
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    padding-top: 4%;
+    margin-bottom: 19%;
+  }
+
+  .drivers__img {
+    margin-bottom: 16px;
+
+  }
+
+  .drivers__top {
+    text-align: left;
+  }
+
+  .drivers__role {
+    border-bottom: 1px solid #BDBDBD;
+  }
+
+  .drivers__name {
+    font-size: 28px;
+    line-height: 64px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__info {
+    margin-bottom: 35px;
+  }
+
+  .footer__text {
+    font-size: 16px;
+  }
+
+  .footer__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+  }
+
+  .footer__link {
+    font-size: 18px;
+    margin-right: 48px;
+  }
+
+  .footer__form {
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 565px) {
+  .hero__inner {
+    display: flex;
+  }
+
+  .hero__inner:after {
+    width: 212px;
+    height: 44px;
+    bottom: -53px;
+    left: 224px;
+    background-repeat: no-repeat;
+    background-image: url('../../img/hw-header-car-small.png');
+  }
+
+  .hero__title {
+    font-size: 72px;
+  }
+
+  .drivers__title:after {
+    width: 66%;
+  }
+
+  .car__img {
+    width: 319px;
+    height: 179px;
+  }
+
+  .car__description {
+    font-size: 12px;
+    line-height: 20px;
+    max-width: 319px;
+  }
+
+  .car__box {
+    align-items: flex-start;
+    margin: 0 0 20px 0;
+  }
+
+  .car__feature {
+    margin-top: 20px;
+  }
+
+  .car__bottom {
+    flex-direction: column;
+
+  }
+
+  .car__left-side {
+    margin-bottom: 3%;
+  }
+
+  .car__info {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .car__title:after {
+    width: 83%;
+  }
+}
+
+@media (max-width: 465px) {
+  .hero {
+    min-height: 200px;
+    margin-bottom: 75px;
+  }
+
+  .hero__inner {
+    justify-content: center;
+  }
+
+  .hero__inner:after {
+    left: 0;
+    bottom: -91px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    line-height: 42px;
+  }
+
+  .drivers__title:after {
+    width: 59%;
+  }
+
+  .car__title:after {
+    width: 78%;
+  }
+}
+
+@media (max-width: 365px) {
+  .hero__slogan {
+    font-weight: 600;
+  }
+
+  .about__img {
+    width: 288px;
+    height: 159px;
+  }
+
+  .about__list {
+    left: 12px;
+  }
+
+  .about__item {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+  }
+
+  .drivers__title:after {
+    width: 50%;
+  }
+
+  .car__feature {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .car__title:after {
+    width: 74%;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero {
+    min-height: 104px;
+    background-position: top center;
+  }
+
+  .hero__inner {
+    max-height: 187px;
+    padding-top: 44%;
+    margin-bottom: 100px;
+  }
+
+  .hero__team {
+    font-size: 10px;
+    line-height: 21px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    line-height: 42px;
+  }
+
+  .hero__slogan {
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 600;
+  }
+
+  .hero__inner:after {
+    bottom: -115px;
+    left: 0;
+    width: 212px;
+    height: 44px;
+    background-image: url('../../img/hw-header-car-small.png');
+  }
+
+  .about__title {
+    font-size: 36px;
+    line-height: 60px;
+    top: -34px;
+  }
+
+  .drivers__box {
+    width: 100%;
+  }
+
+  .drivers__info {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .car__bottom {
+    margin-left: 0;
+  }
+}
