@@ -1,6 +1,7 @@
 # Headworks F1 Homepage
 
-# Completed task
+# Completed task builded on GH pages
+You can check result [here](https://whoisbroken.github.io/headworks-test/app/)
 
 ## Your task
 We decided to run own formula1 team. But we need some landing page, to promote our team.
