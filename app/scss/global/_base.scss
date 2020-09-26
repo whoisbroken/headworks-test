@@ -26,8 +26,16 @@ body {
   text-align: right;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .revert {
   text-align: revert;
+}
+
+.hide {
+  display: none;
 }
 
 .input {

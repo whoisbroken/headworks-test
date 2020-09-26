@@ -1,5 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // this function runs when the DOM is ready, i.e. when the document has been parsed
+  
+  const headerStartBtn = document.querySelector('.header__start-btn'),
+        body = document.querySelector('body'),
+        hero = document.querySelector('.hero'),
+        heroInnerBox = document.querySelector('.hero__inner-box'),
+        menuList = document.querySelector('.menu__list');
 
-  // all js code should go below this line
+
+  headerStartBtn.addEventListener('click', () => {
+
+    headerStartBtn.classList.toggle('active');
+    menuList.classList.toggle('show');
+    body.classList.toggle('no-scroll');
+    heroInnerBox.classList.toggle('hide');
+})
+
+
 });

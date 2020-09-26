@@ -105,6 +105,9 @@
 }
 
 @media (max-width: 768px) {
+  .menu__item {
+    margin-right: 0;
+  }
   .hero__inner {
     padding-top: 23%;
   }

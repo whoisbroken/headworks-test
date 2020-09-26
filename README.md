@@ -1,5 +1,7 @@
 # Headworks F1 Homepage
 
+# Completed task
+
 ## Your task
 We decided to run own formula1 team. But we need some landing page, to promote our team.
 Our designer designed landing page and you need to layout it from scratch.
