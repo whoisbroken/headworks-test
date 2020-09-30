@@ -54,6 +54,27 @@ body {
   }
 }
 
+.overlay {
+  display: block;
+	position: fixed;
+	z-index: 899;
+	top: 53px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #333;
+	-webkit-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+	opacity: 0;
+	pointer-events: none;
+}
+
+.overlay.active {
+	opacity: 0.38;
+	pointer-events: all;
+}
+
 @media (max-width: 1080px) {
   .container {
     max-width: 768px;

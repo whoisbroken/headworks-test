@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
         body = document.querySelector('body'),
         hero = document.querySelector('.hero'),
         heroInnerBox = document.querySelector('.hero__inner-box'),
+        overlay = document.querySelector('.overlay');
         menuList = document.querySelector('.menu__list');
 
 
@@ -13,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     menuList.classList.toggle('show');
     body.classList.toggle('no-scroll');
     heroInnerBox.classList.toggle('hide');
+    overlay.classList.toggle('active');
 })
 
 
